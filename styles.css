@@ -1,0 +1,116 @@
+/* Reset CSS pour supprimer les styles par défaut des navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style du titre */
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+/* Style de la grille de projets */
+.grille {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mairie, .immo, .linkedin {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.mairie:hover, .immo:hover, .linkedin:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mairie h2, .immo h2, .linkedin h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mairie img, .immo img, .linkedin img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Style spécifique à la deuxième page */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.block {
+    margin-bottom: 20px;
+}
+
+.block2 {
+    text-align: center;
+}
+
+.block3 {
+    margin-top: 20px;
+}
+
+.block3 a {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.block3 a:hover {
+    text-decoration: underline;
+}

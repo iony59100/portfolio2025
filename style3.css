@@ -1,0 +1,63 @@
+/* style3.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Couleur de fond légèrement teintée */
+    color: #333; /* Couleur du texte par défaut */
+    line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Ajout d'une transition de couleur fluide */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Changement de couleur au survol */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(190, 183, 183, 0.9); /* Fond légèrement teinté */
+    border-radius: 8px; /* Ajout de bordures arrondies */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre légère */
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px; /* Ajout de marge en bas pour espacer les titres */
+}
+
+.section {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #250707;
+    text-align: center;
+    padding: 20px 0;
+}

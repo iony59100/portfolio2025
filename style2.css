@@ -1,0 +1,65 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #2c3e50; /* Bleu foncé */
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ecf0f1; /* Blanc */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #34495e; /* Bleu légèrement plus clair au survol */
+    color: #ecf0f1; /* Blanc */
+}
+
+/* Style du conteneur principal */
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #bdc3c7; /* Gris clair */
+    border-radius: 5px;
+    background-color: #ecf0f1; /* Gris clair */
+}
+
+.container h1 {
+    color: #2c3e50; /* Bleu foncé */
+}
+
+.container h2 {
+    color: #2980b9; /* Bleu */
+}
+
+.container h3 {
+    color: #7f8c8d; /* Gris */
+}
+
+.container p {
+    color: #95a5a6; /* Gris légèrement plus clair */
+}
+
+.block {
+    width: 60%; /* Définir une largeur pour le bloc de texte */
+    display: inline-block; /* Disposition en ligne */
+    vertical-align: top; /* Aligner en haut */
+}
+
+.block2 {
+    width: 30%; /* Définir une largeur pour le bloc de l'image */
+    display: inline-block; /* Disposition en ligne */
+    vertical-align: top; /* Aligner en haut */
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
