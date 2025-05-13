@@ -10,6 +10,12 @@
     background-color: #333;
     overflow: hidden;
 }
+.mairie img {
+    width: 200px;   /* ou la taille que tu veux */
+    height: auto;   /* conserve les proportions */
+    border-radius: 10px; /* optionnel : coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optionnel : ombre */
+}
 
 .navbar a {
     float: left;
